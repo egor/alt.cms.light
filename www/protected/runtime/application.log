@@ -1,0 +1,121 @@
+2013/02/22 12:25:58 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbHeroUnit" is invalid. Make sure it points to an existing directory or file.' in Z:\home\light.alt.dp.ua.local\www\framework\YiiBase.php:341
+Stack trace:
+#0 Z:\home\light.alt.dp.ua.local\www\framework\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 Z:\home\light.alt.dp.ua.local\www\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 Z:\home\light.alt.dp.ua.local\www\framework\web\CBaseController.php(189): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 Z:\home\light.alt.dp.ua.local\www\themes\altadmin\views\site\index.php(9): CBaseController->beginWidget('bootstrap.widge...', Array)
+#4 Z:\home\light.alt.dp.ua.local\www\framework\web\CBaseController.php(126): require('Z:\home\light.a...')
+#5 Z:\home\light.alt.dp.ua.local\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\home\light.a...', NULL, true)
+#6 Z:\home\light.alt.dp.ua.local\www\framework\web\CController.php(869): CBaseController->renderFile('Z:\home\light.a...', NULL, true)
+#7 Z:\home\light.alt.dp.ua.local\www\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 Z:\home\light.alt.dp.ua.local\www\protected\controllers\SiteController.php(32): CController->render('index')
+#9 Z:\home\light.alt.dp.ua.local\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 Z:\home\light.alt.dp.ua.local\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 Z:\home\light.alt.dp.ua.local\www\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 Z:\home\light.alt.dp.ua.local\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php(282): CController->run('')
+#14 Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 Z:\home\light.alt.dp.ua.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 Z:\home\light.alt.dp.ua.local\www\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+---
+2013/02/22 12:27:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\light.alt.dp.ua.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\light.alt.dp.ua.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/22 12:27:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\light.alt.dp.ua.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\light.alt.dp.ua.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/22 12:27:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\light.alt.dp.ua.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\light.alt.dp.ua.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/22 12:28:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\light.alt.dp.ua.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\light.alt.dp.ua.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/22 12:28:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\light.alt.dp.ua.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\light.alt.dp.ua.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/22 12:28:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/lib/bootstrap/less/mixins.less".' in Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 Z:\home\light.alt.dp.ua.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\light.alt.dp.ua.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://light.alt.dp.ua.local/altadmin
+---
+2013/02/22 12:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\light.alt.dp.ua.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\light.alt.dp.ua.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/22 12:29:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/lib/bootstrap/less/mixins.less".' in Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 Z:\home\light.alt.dp.ua.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\light.alt.dp.ua.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://light.alt.dp.ua.local/altadmin
+---
+2013/02/22 12:29:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\light.alt.dp.ua.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\light.alt.dp.ua.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/22 12:29:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\light.alt.dp.ua.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\light.alt.dp.ua.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/22 12:29:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "assets/lib/bootstrap/less/mixins.less".' in Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/lib/boot...')
+#1 Z:\home\light.alt.dp.ua.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\light.alt.dp.ua.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/lib/bootstrap/less/mixins.less
+HTTP_REFERER=http://light.alt.dp.ua.local/altadmin
+---
+2013/02/22 12:29:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\light.alt.dp.ua.local\www\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 Z:\home\light.alt.dp.ua.local\www\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\light.alt.dp.ua.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
