@@ -19,6 +19,9 @@ class AltadminModule extends CWebModule
 	{
 		if(parent::beforeControllerAction($controller, $action))
 		{
+                    if ((Yii::app()->user->isGuest || Yii::app()->user->role!='admin') && Yii::app()->controller->id!='default') {
+                        Yii::app()->request->redirect('/altadmin/');
+                    }
 			// this method is called before any module controller action is performed
 			// you may place customized code here
 			return true;

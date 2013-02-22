@@ -9,7 +9,7 @@ $this->breadcrumbs=array(
 <?php /** @var BootActiveForm $form */
 $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array(
     'id'=>'verticalForm',    
-    'htmlOptions'=>array('class'=>'well span3'),
+    'htmlOptions'=>array('class'=>'well'),
 )); ?>
  
 <?php echo $form->textFieldRow($model, 'username', array('class'=>'span3')); ?>

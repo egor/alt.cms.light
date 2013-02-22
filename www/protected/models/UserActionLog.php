@@ -40,7 +40,8 @@ class UserActionLog extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('user_id, action, date, array, comment, error', 'required'),
+			//array('user_id, action, date, array, comment, error', 'required'),
+                        array('user_id, action, date, array, comment, error', 'safe'),
 			array('user_id, date, error', 'numerical', 'integerOnly'=>true),
 			array('action, comment', 'length', 'max'=>255),
 			// The following rule is used by search().

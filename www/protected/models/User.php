@@ -41,7 +41,12 @@ class User extends CActiveRecord
         return array(
             array('email, password, name, role', 'required'),
             array('email, password, name', 'length', 'max' => 255),
+            array('password', 'length', 'min'=>7, 'max' => 255),
+            array('name', 'length', 'min'=>3, 'max' => 255),
             array('role', 'length', 'max' => 20),
+            array('email', 'email'),
+            array('email', 'unique'),
+            
             // The following rule is used by search().
             // Please remove those attributes that should not be searched.
             array('user_id, email, password, name, role', 'safe', 'on' => 'search'),

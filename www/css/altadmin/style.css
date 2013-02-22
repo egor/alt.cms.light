@@ -1,0 +1,13 @@
+/* 
+    Document   : style
+    Created on : 22.02.2013, 14:28:17
+    Author     : egorik
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.u-delete{
+    text-align: center!important;
+    background-color: #3A87AD;
+    color: #fff;
+}
+

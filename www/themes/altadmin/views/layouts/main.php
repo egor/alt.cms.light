@@ -5,13 +5,12 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="ru" />
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/styles.css" />
+        <link rel="stylesheet" type="text/css" href="/css/altadmin/style.css" />
         <title><?php echo CHtml::encode($this->pageTitle); ?></title>
 
         <?php Yii::app()->bootstrap->register(); ?>
     </head>
-
     <body>
-
         <?php
         $this->widget('bootstrap.widgets.TbNavbar', array(
             'items' => array(
@@ -34,6 +33,7 @@
             <?php if (isset($this->breadcrumbs)): ?>
                 <?php
                 $this->widget('bootstrap.widgets.TbBreadcrumbs', array(
+                    'homeLink' => CHtml::link('CMS ALT ADMIN','/altadmin'),
                     'links' => $this->breadcrumbs,
                 ));
                 ?><!-- breadcrumbs -->
@@ -62,7 +62,7 @@
                                 
                                 array('label' => 'Помощь', 'icon' => 'flag', 'url' => '#'),
                                 array('label' => 'Лог действий', 'icon' => 'hdd', 'url' => '#'),
-                                array('label' => 'Выход', 'icon' => 'off', 'url' => '#'),
+                                array('label' => 'Выход', 'icon' => 'off', 'url' => '/altadmin/logout'),
                             ),
                         ));
                         ?>
