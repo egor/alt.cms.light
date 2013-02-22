@@ -6,7 +6,17 @@ $this->breadcrumbs=array(
 );
 ?>
 <h1><?php echo $this->uniqueId . '/' . $this->action->id; ?></h1>
-
+<?php /** @var BootActiveForm $form */
+$form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array(
+    'id'=>'verticalForm',    
+    'htmlOptions'=>array('class'=>'well span3'),
+)); ?>
+ 
+<?php echo $form->textFieldRow($model, 'username', array('class'=>'span3')); ?>
+<?php echo $form->passwordFieldRow($model, 'password', array('class'=>'span3')); ?>
+<?php echo $form->checkboxRow($model, 'rememberMe'); ?>
+<?php $this->widget('bootstrap.widgets.TbButton', array('buttonType'=>'submit', 'type'=>'primary', 'label'=>'Вход')); ?>
+<?php $this->endWidget(); ?>
 <p>
 This is the view content for action "<?php echo $this->action->id; ?>".
 The action belongs to the controller "<?php echo get_class($this); ?>"
