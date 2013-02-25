@@ -5,7 +5,8 @@ $this->breadcrumbs = array(
     'Редактирование пользователя ('.$model->name.')',
 );
 ?>
-<h1>Редактирование пользователя (<?php echo $model->name; ?>)</h1>
+<h1>Редактирование пользователя</h1>
+<h2>(<?php echo $model->name; ?>)</h2>
 
 <div class="form">
 

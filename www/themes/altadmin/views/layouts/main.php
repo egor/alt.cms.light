@@ -1,12 +1,12 @@
 <?php /* @var $this Controller */ ?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="ru" />
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/styles.css" />
         <link rel="stylesheet" type="text/css" href="/css/altadmin/style.css" />
-        <title><?php echo CHtml::encode($this->pageTitle); ?></title>
+        <title><?php echo CHtml::encode($this->pageTitle) . Yii::app()->params['extraTitle']; ?></title>
 
         <?php Yii::app()->bootstrap->register(); ?>
     </head>

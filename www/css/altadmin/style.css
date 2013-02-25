@@ -10,4 +10,20 @@
     background-color: #3A87AD;
     color: #fff;
 }
+.i-img{
+    width: 100%;
+}
+.pre-img{
+    width:220px;
+    text-align:right;
+
+}
+.main-img{
+    text-align: center;
+    width: 100%;
+}
+.i-remove{
+    display: inline-table;
+    margin-top: 5px;
+}
 
