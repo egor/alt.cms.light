@@ -52,6 +52,9 @@ return array(
             'showScriptName' => false,
             'rules' => array(
                 'altadmin/logout' => 'altadmin/default/logout',
+                'altadmin/restore' => 'altadmin/default/restore',
+                'altadmin/confirmation/<key:\w+>' => 'altadmin/default/confirmation',
+                'altadmin/confirmation' => 'altadmin/default/confirmation',
                 '<modules:\w+>/<controller:\w+>/<action:\w+>/<id:\d+>' => '<modules>/<controller>/<action>',
                 '<controller:\w+>/<id:\d+>' => '<controller>/view',
                 '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',

@@ -49,6 +49,7 @@
                                 array('label' => 'Новости'),
                                 array('label' => 'Список', 'icon' => 'th-list', 'url' => '/altadmin/news', 'active' => false),
                                 array('label' => 'Добавить', 'icon' => 'plus', 'url' => '/altadmin/news/add', 'active' => false),
+                                array('label' => 'Настройки', 'icon' => 'cog', 'url' => '/altadmin/news/settings', 'active' => false),
                                 array('label' => 'Пользователи'),
                                 array('label' => 'Список', 'icon' => 'th-list', 'url' => '/altadmin/user', 'active' => false),
                                 array('label' => 'Добавить', 'icon' => 'plus', 'url' => '/altadmin/user/add', 'active' => false),                                
