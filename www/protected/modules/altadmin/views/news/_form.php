@@ -30,8 +30,8 @@ if (isset($edit)) {
 echo $form->textFieldRow($model, 'meta_title', array('class' => 'span12'));
 echo $form->textFieldRow($model, 'meta_keywords', array('class' => 'span12'));
 echo $form->textAreaRow($model, 'meta_description', array('class' => 'span12', 'rows' => 3));
-echo $form->textAreaRow($model, 'short_text', array('class' => 'span12', 'rows' => 7));
-echo $form->textAreaRow($model, 'text', array('class' => 'span12', 'rows' => 7));
+echo $form->textAreaRow($model, 'short_text', array('class' => 'span12', 'rows' => 7, 'id'=>'editor-desc'));
+echo $form->textAreaRow($model, 'text', array('class' => 'span12', 'rows' => 7, 'id'=>'editor-text'));
 if (isset($edit)) {
     ?>
     <table class="i-img">

@@ -8,7 +8,7 @@ Yii::setPathOfAlias('bootstrap', dirname(__FILE__) . '/../extensions/bootstrap')
 return array(
     'language' => 'ru',
     'sourceLanguage' => 'ru',
-    //'theme' => 'altadmin',
+    'theme' => 'keyboard',
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
     'name' => 'My Web Application',
     // preloading 'log' component
@@ -50,15 +50,17 @@ return array(
         'urlManager' => array(
             'urlFormat' => 'path',
             'showScriptName' => false,
-            'rules' => array(
+            'rules' => array(                
                 'altadmin/logout' => 'altadmin/default/logout',
                 'altadmin/restore' => 'altadmin/default/restore',
                 'altadmin/confirmation/<key:\w+>' => 'altadmin/default/confirmation',
-                'altadmin/confirmation' => 'altadmin/default/confirmation',
+                'altadmin/confirmation' => 'altadmin/default/confirmation',                
                 '<modules:\w+>/<controller:\w+>/<action:\w+>/<id:\d+>' => '<modules>/<controller>/<action>',
+                
                 '<controller:\w+>/<id:\d+>' => '<controller>/view',
                 '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
                 '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
+                //'news/klaviatura-vyipolnyaet-funktsiyu-keysa' => 'news/detail',
             ),
         ),
         /*'db' => array(
